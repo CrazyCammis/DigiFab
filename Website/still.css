@@ -1,0 +1,42 @@
+body {
+    margin: auto;
+    background-image: url(bilder/background.jpg);
+    background-size: 20em;
+    width: 100%;
+    background-color: grey;
+  }
+
+  aside {
+    font-size: 140%;
+    grid-area: 2 / 1 / span 1 / span 1;
+    background-color: #eee;
+    border-style: hidden;
+    width: 100%;
+    padding-top: 2em;
+    align-content: center;
+    text-align: center;
+  }
+
+
+  main {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-area: 2/2 / span 1 / span 9;
+    background-color: grey;
+    border: hidden;
+    border-color: grey;
+  }
+  
+
+
+  footer {
+    grid-area: 3/ 1 / span 1 / span 10;
+      background-image: linear-gradient(to bottom right, navy, darkgrey);
+    text-align: center;
+    width: 100%;
+  }
+  
